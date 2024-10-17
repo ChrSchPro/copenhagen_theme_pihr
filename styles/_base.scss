@@ -6,7 +6,7 @@
 body {
   background-color: $background_color;
   color: $text_color;
-  font-family: $text_font;
+  font-family: "CircularXX", serif;
   font-size: $font-size-base;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -145,17 +145,18 @@ ul {
 .visibility-hidden {
   @include visually-hidden;
 }
-//@font-face {
-//  font-family: 'Space Mono';
-//  src: local ("Regular"),
-//  url($assets-spacemono-regular-ttf) format('truetype'),
-//  font-weight: 400;
-//  font-style: normal;
-//}
-//@font-face {
-//  font-family: 'CircularXX';
-//  src: local ("Regular"),
-//  url($$assets-circularxx-book-otf) format('opentype'),
-//  font-weight: 400;
-//  font-style: normal;
-//}
+@font-face {
+  font-family: "Space Mono";
+  src:
+          local("Regular"),
+  url("assets/SpaceMono-Regular.ttf") format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CircularXX';
+  src: local("Regular"),
+  url("assets/CircularXX-Book.otf") format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}

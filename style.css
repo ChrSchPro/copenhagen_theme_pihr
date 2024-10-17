@@ -189,7 +189,7 @@ template {
 body {
   background-color: $background_color;
   color: $text_color;
-  font-family: $text_font;
+  font-family: "CircularXX", serif;
   font-size: 15px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -338,6 +338,18 @@ ul {
   white-space: nowrap;
 }
 
+@font-face {
+  font-family: "Space Mono";
+  src: local("Regular"), url("assets/SpaceMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CircularXX";
+  src: local("Regular"), url("assets/CircularXX-Book.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
 /***** Buttons *****/
 .button, .pagination-next-link, .pagination-prev-link, .pagination-first-link, .pagination-last-link, .subscriptions-subscribe button, .requests-table-toolbar .organization-subscribe button, .community-follow button, .article-subscribe button, .section-subscribe button, .split-button button {
   background-color: transparent;
@@ -975,6 +987,7 @@ ul {
 
 /***** Breadcrumbs *****/
 .breadcrumbs {
+  font-family: "Space Mono", monospace;
   margin: 0 0 15px 0;
   padding: 0;
   display: flex;
@@ -1012,6 +1025,7 @@ ul {
   display: flex;
   position: relative;
   transition: border 0.12s ease-in-out;
+  font-family: "Space Mono", monospace;
 }
 .search:focus-within {
   border-color: $brand_color;
@@ -1400,6 +1414,7 @@ ul {
 }
 
 .topics-title {
+  font-family: "Space Mono", monospace;
   display: block;
   padding: 50px 0 0 10px;
   font-size: 16px;
@@ -1772,6 +1787,10 @@ ul {
 .process-boxes {
   padding: 20px 24px 26px 24px;
   justify-content: space-between;
+}
+
+.process-title {
+  font-family: "Space Mono", monospace;
 }
 
 /***** Section pages *****/
