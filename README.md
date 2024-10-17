@@ -24,7 +24,7 @@ You can read more about the manifest file [here](https://support.zendesk.com/hc/
 If you have a variable of type `file`, you need to provide a default file for that variable in the `/settings` folder. This file will be used on the settings panel by default and users can upload a different file if they like.
 Ex.
 If you would like to have a variable for the background image of a section, the variable in your manifest file would look something like this:
-
+BYKomIDkynNfTuIXc8erO4X2yxXZPDMV1ALCQxvM
 ```js
 {
   ...

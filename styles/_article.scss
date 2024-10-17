@@ -12,7 +12,7 @@
     padding: 0 30px;
   }
 
-  flex: 1 0 auto; //Explicit values needed whith flex-direction: column for IE11
+  flex: 1 0 auto; //Explicit values needed with flex-direction: column for IE11
 
   &-container {
     @include desktop {
@@ -117,11 +117,11 @@
   &-sidebar {
     @include desktop {
       border: 0;
-      flex: 0 0 17%;
+      flex: 0 0 25%;
       height: auto;
-      max-width: 17%;
+      max-width: 25%;
     }
-
+    //display: flex;
     border-bottom: 1px solid $low-contrast-border-color;
     border-top: 1px solid $low-contrast-border-color;
     flex: 1 0 auto; //Explicit values needed whith flex-direction: column for IE11
@@ -225,6 +225,7 @@
     font-size: $font-size-base;
     position: relative;
     font-weight: 600;
+
   }
 
   &-item {
@@ -233,6 +234,26 @@
     margin-bottom: 16px;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: #000000;
+    &:visited,
+    &:hover,
+    &:active {
+      color: #000000;
+    }
+
+  }
+  &-list {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #000000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    border-bottom: 1px solid var(--Purple, #501E78);
   }
 }
 

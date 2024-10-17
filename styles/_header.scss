@@ -3,8 +3,9 @@ $header-height: 71px;
 
 .header {
   @include max-width-container;
-  position: relative;
+  //position: relative;
   align-items: center;
+  margin: 0;
   display: flex;
   height: $header-height;
   justify-content: space-between;
@@ -81,7 +82,7 @@ $header-height: 71px;
     }
 
     border: 0;
-    color: $link_color;
+    color: #ffffff;
     display: none;
     font-size: 14px;
     padding: 0 20px 0 0;
@@ -93,7 +94,7 @@ $header-height: 71px;
     &:focus,
     &:active {
       background-color: transparent;
-      color: $link_color;
+      color: #ffffff;
       text-decoration: underline;
     }
   }
