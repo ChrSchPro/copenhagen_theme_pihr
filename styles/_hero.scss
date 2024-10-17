@@ -14,10 +14,8 @@
   align-items: center;
 
   &-inner {
-    //@include vertical-align;
-    //position: relative;
-    //top: 50px;
     max-width: 1195px;
+    width: 80%;
     margin: 25px;
     display: flex;
     flex-direction: column;

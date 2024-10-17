@@ -4,6 +4,7 @@
     {{breadcrumbs}}
   </div>
 <!--  <div class="category-container">-->
+  <div id="mainText-category" style="display: none;">{{category.name}}</div>
     <div id="main-content" class="section-tree">
       <section class="category-content">
         <ul class="blocks-list">
@@ -28,7 +29,7 @@
         <ul class="process-blocks-list">
           {{#each (slice sections 2 3) }}
             <li class="process-blocks-item">
-              <a href='{{url}}' class="section-blocks-item-link">
+              <a href='{{url}}' class="section-blocks-item-link process-boxes">
                 <span class="process-item-title">{{name}}</span>
                 <svg class="process-item-title" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                      viewBox="0 0 24 24" fill="">
@@ -45,3 +46,8 @@
     </div>
 <!--  </div>-->
 </div>
+<script>
+  let mainText = document.getElementById('mainText')
+  let MainTextName = document.getElementById('mainText-category').innerHTML
+  mainText.innerHTML = MainTextName
+</script>

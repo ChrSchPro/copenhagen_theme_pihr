@@ -11,7 +11,7 @@
         <section>
           <ul class="section-blocks-list">
             {{#each (slice section.sections 0 3)}}
-              <li class="section-blocks-item">
+              <li class="section-blocks-item-two">
                 <a href="{{url}}" class="section-blocks-item-link">
                   <span>{{name}}</span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -20,20 +20,8 @@
                       fill="black" />
                   </svg>
                 </a>
-                <ul style="margin-top: 44px;">
-                  {{#each (slice articles 0 3)}}
-                    <li style="margin-bottom: 16px;">
-                      <a href="{{url}}" class="article-blocks-item-link">
-                        <span>{{title}}</span>
-                      </a>
-                    </li>
-                  {{/each}}
-                </ul>
-                {{#if article_count}}
-                  <a href="{{url}}" class="see-all-articles" style="flex-direction: column-reverse;flex-basis: 300px">
-                    {{t 'show_all_articles' count=article_count}}
-                  </a>
-                {{/if}}
+
+
               </li>
 
             {{/each}}

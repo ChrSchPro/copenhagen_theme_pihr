@@ -86,7 +86,7 @@
     color: #000000;
     display: flex;
     flex: 0 1 366px;
-    padding: 20px 24px 26px 24px;
+
     a {
       color: $text_color;
       display: flex;
@@ -168,4 +168,8 @@
 
 
 
+}
+.process-boxes {
+  padding: 20px 24px 26px 24px;
+  justify-content: space-between;
 }

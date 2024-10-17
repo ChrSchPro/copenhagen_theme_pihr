@@ -145,3 +145,17 @@ ul {
 .visibility-hidden {
   @include visually-hidden;
 }
+//@font-face {
+//  font-family: 'Space Mono';
+//  src: local ("Regular"),
+//  url($assets-spacemono-regular-ttf) format('truetype'),
+//  font-weight: 400;
+//  font-style: normal;
+//}
+//@font-face {
+//  font-family: 'CircularXX';
+//  src: local ("Regular"),
+//  url($$assets-circularxx-book-otf) format('opentype'),
+//  font-weight: 400;
+//  font-style: normal;
+//}
