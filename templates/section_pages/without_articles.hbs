@@ -3,7 +3,7 @@
   <div class="sub-nav">
     {{breadcrumbs}}
   </div>
-
+  <div id="mainText-category" style="display: none;">{{section.name}}</div>
   <div class="section-container">
     <section id="main-content" class="section-content">
 
@@ -12,7 +12,7 @@
           <ul class="section-blocks-list">
             {{#each (slice section.sections 0 3)}}
               <li class="section-blocks-item-two">
-                <a href="{{url}}" class="section-blocks-item-link">
+                <a href="{{url}}" class="section-blocks-item-link process-boxes">
                   <span>{{name}}</span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <path
@@ -33,11 +33,7 @@
 
       {{#if section.articles}}
         <section style="display: flex;gap: 100px">
-          <div style="display: flex;
-flex-basis: 800px;
-flex-direction: column;
-align-items: normal;
-gap: 20px;">
+          <div style="display: flex;flex-basis: 800px;flex-direction: column;align-items: normal;gap: 20px;">
             <h1>{{section.name}}</h1>
             <p>{{section.description}}</p>
             <ul class="process-blocks-list">
@@ -50,13 +46,14 @@ gap: 20px;">
                         fill="black" />
                     </svg>
                   {{/if}}
-                  <a href="{{url}}" class="process-item-title">{{title}}</a>
+                  <a href="{{url}}" class="process-item-title process-boxes">{{title}}
                   <svg class="process-item-title" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                        viewBox="0 0 24 24" fill="">
                     <path
                       d="M11.777 4.14414C11.9911 3.95195 12.1932 3.95195 12.3835 4.14414L19.8395 11.7117C20.0535 11.9039 20.0535 12.0961 19.8395 12.2883L12.3835 19.8559C12.1932 20.048 11.9911 20.048 11.777 19.8559L11.0635 19.1351C10.9922 19.0631 10.9565 18.967 10.9565 18.8468C10.9565 18.7267 10.9922 18.6186 11.0635 18.5225L16.5931 12.9369H4.42809C4.1427 12.9369 4 12.7928 4 12.5045V11.4955C4 11.2072 4.1427 11.0631 4.42809 11.0631H16.5931L11.0635 5.47748C10.8733 5.26126 10.8733 5.05706 11.0635 4.86486L11.777 4.14414Z"
                       fill="" />
                   </svg>
+                  </a>
                   {{#if internal}}
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16"
                          class="icon-lock" title="{{t 'internal'}}">
@@ -125,3 +122,11 @@ gap: 10px;
     </section>
   </div>
 </div>
+<script>
+  let mainText = document.getElementById('mainText')
+  let MainTextName = document.getElementById('mainText-category').innerHTML
+  mainText.innerHTML = MainTextName
+  let helperText = document.getElementById('helperText')
+  console.log(helperText.style)
+  helperText.style.display = "none"
+</script>

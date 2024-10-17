@@ -1127,6 +1127,7 @@ ul {
   color: #ffffff;
   display: block;
   text-align: left;
+  line-height: 1;
 }
 @media (max-width: 768px) {
   #mainText {
@@ -1867,7 +1868,6 @@ ul {
 }
 .section-blocks-item-two {
   display: flex;
-  padding: 26px 24px;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
