@@ -172,7 +172,10 @@
 .process-boxes {
   padding: 20px 24px 26px 24px;
   justify-content: space-between;
+  font-weight: bold;
 }
 .process-title {
   font-family: "Space Mono", monospace;
+  text-transform: uppercase;
+  line-height: 3;
 }

@@ -30,7 +30,7 @@
     flex-direction: column;
     flex: 1 0 340px;
     margin: 0 0 30px;
-    max-width: 100%;
+    max-width: 50%;
     //text-align: center;
 
     &:hover,
@@ -145,6 +145,7 @@
 
 .topics-title {
   font-family: "Space Mono", monospace;
+  text-transform: uppercase;
   display: block;
   padding: 50px 0 0 10px;
   font-size: 16px;

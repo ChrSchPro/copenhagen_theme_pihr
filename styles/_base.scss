@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $heading_font;
+  font-family: "CircularXX", serif;
   margin-top: 0;
 }
 
@@ -156,7 +156,7 @@ ul {
 @font-face {
   font-family: 'CircularXX';
   src: local("Regular"),
-  url("assets/CircularXX-Book.otf") format('opentype');
+  url("assets/CircularXX-Light.otf") format('opentype');
   font-weight: 400;
   font-style: normal;
 }

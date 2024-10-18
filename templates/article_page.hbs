@@ -298,12 +298,9 @@
               <path stroke="currentColor" stroke-linecap="round" d="M3 9l6-6m0 6L3 3"/>
             </svg>
           </button>
-          <span id="section-articles-title" class="collapsible-sidebar-title sidenav-title" style="font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px;">
+          <h2 id="section-articles-title" class="" >
             {{t 'articles_in_section'}}
-          </span>
+          </h2>
           <div class="collapsible-sidebar-body">
             <ul>
               {{#each section.articles}}
@@ -323,8 +320,8 @@ line-height: 26px;">
         </div>
       {{/if}}
       <div class="section-contact-us">
-          <h2>Can't find what you are looking for?</h2>
-          <p>Our team of experts is here to help</p>
+        <h2>{{dc 'guide-contact_one'}}</h2>
+        <p>{{dc 'guide-contact_two'}}</p>
           <a type="button" class="section-contact-us-button" href="{{page_path 'new_request'}}">{{t 'submit_a_request'}}</a>
       </div>
     </aside>
