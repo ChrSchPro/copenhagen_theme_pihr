@@ -1,0 +1,16 @@
+.custom-page-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px
+}
+.video-iframe {
+  height: 100%;
+  width: 530px
+}
+
+.video {
+  display: flex;
+  flex: 0 0 45%;
+  height: 300px;
+}
