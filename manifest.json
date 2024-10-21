@@ -1,7 +1,7 @@
 {
   "name": "Pihr V1",
   "author": "Available",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "api_version": 4,
   "default_locale": "en-us",
   "settings": [
@@ -242,6 +242,18 @@
           "type": "file",
           "description": "homepage_background_image_description",
           "label": "homepage_background_image_label"
+        },
+        {
+          "identifier": "category_background_image",
+          "type": "file",
+          "description": "category_background_image_description",
+          "label": "category_background_image_label"
+        },
+        {
+          "identifier": "section_background_image",
+          "type": "file",
+          "description": "section_background_image_description",
+          "label": "section_background_image_label"
         },
         {
           "identifier": "community_background_image",
