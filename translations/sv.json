@@ -42,6 +42,8 @@
   "category_background_image_label": "Category hero image",
   "section_background_image_description": "Hero image on the section page",
   "section_background_image_label": "section hero image",
+  "article_background_image_description": "Hero image on the article page",
+  "article_background_image_label": "article hero image",
   "hover_link_color_description": "Hovringslägets textfärg för länkelement",
   "hover_link_color_label": "Hovringslänkens färg",
   "images_group_label": "Bilder",

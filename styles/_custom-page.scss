@@ -14,3 +14,15 @@
   flex: 0 0 45%;
   height: 300px;
 }
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #FFAA46;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-size: 13px;
+  font-weight: initial;
+  margin-bottom: 10px;
+}

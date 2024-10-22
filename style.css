@@ -346,9 +346,7 @@ ul {
 }
 @font-face {
   font-family: "CircularXX";
-  src: local("Regular"), url("assets/CircularXX-Light.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
+  src: local("Medium"), url("assets/CircularXX-Light.otf") format("opentype");
 }
 /***** Buttons *****/
 .button, .pagination-next-link, .pagination-prev-link, .pagination-first-link, .pagination-last-link, .subscriptions-subscribe button, .requests-table-toolbar .organization-subscribe button, .community-follow button, .article-subscribe button, .section-subscribe button, .split-button button {
@@ -1248,6 +1246,27 @@ ul {
   flex-direction: column;
 }
 
+.hero-article {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url($article_background_image) lightgray 0px -78.681px/100% 215.426% no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  padding: 0 20px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-article-inner {
+  max-width: 1195px;
+  width: 80%;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
 .page-header {
   display: flex;
   flex-direction: column;
@@ -1839,6 +1858,10 @@ ul {
   font-family: "Space Mono", monospace;
   text-transform: uppercase;
   line-height: 3;
+}
+
+.process-item-title {
+  font-weight: initial;
 }
 
 /***** Section pages *****/
@@ -5207,4 +5230,17 @@ zd-summary-block {
   display: flex;
   flex: 0 0 45%;
   height: 300px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #FFAA46;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-size: 13px;
+  font-weight: initial;
+  margin-bottom: 10px;
 }
