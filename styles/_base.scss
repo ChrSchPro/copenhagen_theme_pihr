@@ -6,7 +6,7 @@
 body {
   background-color: $background_color;
   color: $text_color;
-  font-family: "CircularXX", serif;
+  font-family: "CircularXX", sans-serif;
   font-size: $font-size-base;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "CircularXX", serif;
+  font-family: "CircularXX", sans-serif;
   margin-top: 0;
 }
 
@@ -149,7 +149,7 @@ ul {
   font-family: "Space Mono";
   src:
           local("Regular"),
-  url("assets/SpaceMono-Regular.ttf") format('truetype');
+  url("$assets-spacemono-regular-ttf") format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -157,5 +157,5 @@ ul {
 @font-face {
   font-family: 'CircularXX';
   src: local("Light"),
-  url("assets/CircularXX-Light.otf") format('opentype');
+  url("$assets-circularxx-light-otf") format('opentype');
 }
