@@ -62,13 +62,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    gap: 1rem;
     list-style: none;
     padding: 0;
   }
 
   &-item {
     @include tablet {
-      margin: 0 15px 30px;
+      //margin: 0 15px 30px;
     }
     display: flex;
     height: 330px;
