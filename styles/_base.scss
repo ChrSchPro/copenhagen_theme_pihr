@@ -6,7 +6,7 @@
 body {
   background-color: $background_color;
   color: $text_color;
-  font-family: "CircularXX", sans-serif;
+  font-family: "CircularXX-Light", sans-serif;
   font-size: $font-size-base;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "CircularXX", sans-serif;
+  font-family: "CircularXX-Black", sans-serif;
   margin-top: 0;
 }
 
@@ -46,7 +46,7 @@ h4 {
 }
 
 a {
-  color: $link_color;
+  color: #000000;
   text-decoration: none;
 
   &:visited {
@@ -147,15 +147,37 @@ ul {
 }
 @font-face {
   font-family: "Space Mono";
-  src:
-          local("Regular"),
-  url("$assets-spacemono-regular-ttf") format('truetype');
+  src: local("Regular"), url("$assets-spacemono-regular-ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'CircularXX';
-  src: local("Light"),
-  url("$assets-circularxx-light-otf") format('opentype');
+  font-family: "CircularXX-Light";
+  src: local("CircularXX-Light"), url("$assets-circularxx-light-otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CircularXX-Book";
+  src: local("CircularXX-Book"), url("$assets-circularxx-Book-otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CircularXX-Medium";
+  src: local("CircularXX-Medium"), url("$assets-circularxx-Medium-otf") format("opentype");
+  font-weight: 450;
+  font-style: normal;
+
+@font-face {
+  font-family: "CircularXX-Black";
+  src: local("CircularXX-Black"), url("$assets-circularxx-Black-otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+
 }
