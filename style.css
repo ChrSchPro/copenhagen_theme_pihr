@@ -206,7 +206,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "CircularXX-Black", sans-serif;
+  font-family: "CircularXX-Medium", sans-serif;
   margin-top: 0;
 }
 
@@ -740,7 +740,7 @@ ul {
   }
 }
 .nav-wrapper-desktop a {
-  font-family: "CircularXX-Book", sans-serif;
+  font-family: "CircularXX-Medium", sans-serif;
   border: 0;
   color: #ffffff;
   display: none;
@@ -995,7 +995,7 @@ ul {
   }
 }
 .footer-language-selector button {
-  font-family: "CircularXX-Book", sans-serif;
+  font-family: "CircularXX-Medium", sans-serif;
   font-size: 18px;
   color: lighten($text_color, 20%);
   display: inline-block;
@@ -1163,7 +1163,7 @@ ul {
 }
 
 #mainText {
-  font-family: "CircularXX-Black", sans-serif;
+  font-family: "CircularXX-Medium", sans-serif;
   font-size: 82px;
   color: #ffffff;
   display: block;
@@ -1441,7 +1441,7 @@ ul {
   text-decoration: none;
 }
 .blocks-item-title {
-  font-family: "CircularXX-Book", sans-serif;
+  font-family: "CircularXX-Medium", sans-serif;
   margin-bottom: 0;
   font-size: 32px;
   line-height: 42px;
@@ -1513,7 +1513,7 @@ ul {
 }
 
 .topics-item-title {
-  font-family: "CircularXX", sans-serif;
+  font-family: "CircularXX-Medium", sans-serif;
   font-size: 20px;
   display: flex;
   flex-direction: row;
@@ -1882,7 +1882,7 @@ ul {
 }
 
 .process-item-title {
-  font-family: "CircularXX-Black", sans-serif;
+  font-family: "CircularXX-Medium", sans-serif;
   align-self: flex-start;
   font-size: 19px;
 }
@@ -2110,7 +2110,7 @@ ul {
     flex: 1 0 66%;
     max-width: 66%;
     min-width: 640px;
-    padding: 0 30px;
+    padding-right: 30px;
   }
 }
 .article-container {
