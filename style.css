@@ -1165,6 +1165,7 @@ ul {
 #mainText {
   font-family: "CircularXX-Medium", sans-serif;
   font-size: 82px;
+  margin-bottom: 20px;
   color: #ffffff;
   display: block;
   text-align: left;
@@ -1441,7 +1442,7 @@ ul {
   text-decoration: none;
 }
 .blocks-item-title {
-  font-family: "CircularXX-Medium", sans-serif;
+  font-family: "CircularXX-Book", sans-serif;
   margin-bottom: 0;
   font-size: 32px;
   line-height: 42px;
