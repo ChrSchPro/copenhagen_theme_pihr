@@ -2024,9 +2024,12 @@ ul {
   align-self: stretch;
   justify-content: space-between;
 }
-.section-blocks-item-link:visited, .section-blocks-item-link:hover, .section-blocks-item-link:active {
+.section-blocks-item-link:visited, .section-blocks-item-link:active {
   color: inherit;
   text-decoration: none;
+}
+.section-blocks-item-link:hover {
+  fill: #ffffff;
 }
 .section-blocks-item-link:focus {
   outline: 0;

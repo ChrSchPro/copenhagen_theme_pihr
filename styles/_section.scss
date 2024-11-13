@@ -159,12 +159,13 @@
     //margin-bottom: 44px;
 
     &:visited,
-    &:hover,
     &:active {
       color: inherit;
       text-decoration: none;
     }
-
+    &:hover {
+      fill: #ffffff;
+    }
     &:focus {
       @include focus-ring;
       text-decoration: none;
