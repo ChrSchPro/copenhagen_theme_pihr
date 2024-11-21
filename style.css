@@ -2111,8 +2111,8 @@ ul {
 }
 @media (min-width: 1024px) {
   .article {
-    flex: 1 0 66%;
-    max-width: 66%;
+    flex: 1 0 68%;
+    max-width: 68%;
     min-width: 640px;
     padding-right: 30px;
   }
@@ -2124,6 +2124,7 @@ ul {
 @media (min-width: 1024px) {
   .article-container {
     flex-direction: row;
+    justify-content: space-between;
   }
 }
 .article-header {
